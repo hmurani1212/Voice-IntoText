@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <h1>Enjoy with us</h1>
+                </li>
+                <li class="li" id="profile">
+                    <a href="Profile.html">Profile</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+ 
+    <div>
+        <h2 id="head" style="text-align: center;">Click on voice button and Speak to record
+            your voice</h2>
+    </div>
+  
+    <div id="Accountbtn">
+        <button type="button" class="btn" id="btn" onclick="handleRecord()">Record Voice</button>
+    </div>
+    <div id="Accountbtn">
+        <button type="button" class="copy" id="btn1" onclick="handleCopy()">Copy text</button>
+    </div>
+    <div class="text" id="text"></div>
+    <script src="Home.js"></script>
+</body>
+
+</html>
