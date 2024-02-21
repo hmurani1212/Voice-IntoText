@@ -122,14 +122,18 @@ nav1 {
 }
 
 @media(max-width:625px) {
-    #Home{
-        display: none;
+    nav {
+        position: relative;
+        width: 900px;
+        height: 70px;
+        background-color: black;
+        color: red;
+        display: flex;
+        float: left;
     }
-    #About{
-        display: none;
-    }
-    #Contact{
-        display: none;
+
+    body {
+        background-color: red;
     }
 
 }
